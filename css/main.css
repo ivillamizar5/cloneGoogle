@@ -1,0 +1,164 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+header nav .nav-secction-right{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-secction-right  a{
+    color: black;
+    margin: 0px 10px 0px 10px;
+}
+
+.icon-menu{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+header nav a img{
+    border-radius: 50%;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-img img{
+    height: 92px;
+    width: 272px;
+}
+
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    border: 1px solid  #e3e4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left:10px;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0px 1px 6px 0px #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+    background-image: url(' https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+main .main-button{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-button div {
+    display: inline-block;
+    
+}
+
+main .main-button button{
+    background-color: #f8f9fa;
+    height: 36px;
+    font-size: 14px;
+    color: #5f6368; 
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 0 20px;
+    border: 0;
+}
+main .main-button button:hover{
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;;
+}
+footer ul{
+    display: flex;
+    padding-left: 0;
+
+}
+footer ul li{
+    list-style: none;
+    margin: 8px;
+    font-size: 14px;
+}
+
+footer ul li a{
+    color: #70757a;
+}
+
+footer .footer-left{
+    justify-self: start;
+}
+
+/* alieneacion celda de la grilla derecha */
+footer .footer-rigt{
+    justify-self: end; 
+    
+}
